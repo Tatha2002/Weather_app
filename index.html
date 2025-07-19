@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EasyWeather</title>
+  <!-- Font Awesome for search icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <i class="fas fa-search" onclick="searchWeather()"></i>
+      <input type="text" id="cityInput" placeholder="Enter a City..." onkeypress="handleKeyPress(event)">
+      <button onclick="searchWeather()">Search</button>
+    </div>
+
+    <div class="weather-card">
+      <div class="current-weather">
+        <img id="weatherIcon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon">
+        <div class="weather-info">
+          <h2 id="cityName">Kolkata</h2>
+          <p id="temperature">Temperature: 17°C</p>
+          <p id="description">Clear sky</p>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <div class="forecast-card" id="day1">
+          <p class="day">Mon</p>
+          <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="Sun Icon" class="forecast-icon">
+          <p class="forecast-temp">21°C</p>
+        </div>
+        <div class="forecast-card" id="day2">
+          <p class="day">Tue</p>
+          <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="Cloud Icon" class="forecast-icon">
+          <p class="forecast-temp">24°C</p>
+        </div>
+        <div class="forecast-card" id="day3">
+          <p class="day">Wed</p>
+          <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="Sun Icon" class="forecast-icon">
+          <p class="forecast-temp">21°C</p>
+        </div>
+        <div class="forecast-card" id="day4">
+          <p class="day">Thu</p>
+          <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="Cloud Icon" class="forecast-icon">
+          <p class="forecast-temp">24°C</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
