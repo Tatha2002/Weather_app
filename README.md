@@ -22,8 +22,7 @@
 ## Contact
 
 - **Email**: tathagatadas@gmail.com
-- **LinkedIn**: (https://www.linkedin.com/in/abhiramlaha/)
-- **Twitter**: (https://twitter.com/LahaAbhiram)
+- **LinkedIn**: (https://www.linkedin.com/in/tathagata-das94/)
 
 Feel free to reach out if you have any questions or just want to connect!
 
